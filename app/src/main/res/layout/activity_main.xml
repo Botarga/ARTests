@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.hackaton.bordarga.locationtest.MainActivity">
+
+    <android.opengl.GLSurfaceView
+        android:id="@+id/my_surface"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"/>
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Moves"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/turn_forward_bt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Forward"/>
+        <Button
+            android:id="@+id/turn_backward_bt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Backward"/>
+        <Button
+            android:id="@+id/turn_left_bt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Left"/>
+        <Button
+            android:id="@+id/turn_right_bt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Right"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <Button
+        android:id="@+id/turn_up_bt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Up"/>
+    <Button
+        android:text="Down"
+        android:id="@+id/turn_down_bt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rotations"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/rotate_up_bt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Up"/>
+        <Button
+            android:id="@+id/rotate_down_bt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Down"/>
+        <Button
+            android:id="@+id/rotate_right_bt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Right"/>
+        <Button
+            android:id="@+id/rotate_left_bt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Left"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/log_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/log_text2"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+</LinearLayout>
